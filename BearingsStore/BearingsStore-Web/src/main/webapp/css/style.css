@@ -322,6 +322,10 @@ color:#064E5A;
 }
 .product_img{
 padding:5px 0 5px 0;
+
+.prod_description{
+padding:5px 0 5px 0;
+}
 }
 /*.product_description{
 margin-bottom:8px;

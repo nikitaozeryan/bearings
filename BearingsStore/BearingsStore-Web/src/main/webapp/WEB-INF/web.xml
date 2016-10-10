@@ -19,7 +19,7 @@
     </session-config>
     <welcome-file-list>
         <welcome-file>
-           main.jsp
+            main
         </welcome-file>
     </welcome-file-list>
 </web-app>

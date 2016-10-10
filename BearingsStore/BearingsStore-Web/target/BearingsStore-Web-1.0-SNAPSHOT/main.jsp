@@ -99,7 +99,9 @@
         <div class="center_prod_box">
             <c:forEach var="bearing" items ="${bearings}">
                 <div class="product_title"><a href="details.html">${bearing.number}</a> </div>
-                <div class="product_img"><a href="details.html"><img src="${bearing.image}" alt="" border="0" /></a></div>
+                <div class="product_img"><a href="details.html"><img src="${bearing.image}" width="100"
+                    height="111" alt="" border="0" /></a></div>
+                    <p>${bearing.description}</p>
             </c:forEach>
           <!--<div class="product_title"><a href="details.html">Motorola 156 MX-VL</a></div>
           <div class="product_img"><a href="details.html"><img src="images/laptop.gif" alt="" border="0" /></a></div>
