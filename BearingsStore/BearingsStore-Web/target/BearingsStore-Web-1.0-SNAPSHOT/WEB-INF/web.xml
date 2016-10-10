@@ -10,7 +10,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>MainPageServlet</servlet-name>
-        <url-pattern>/MainPageServlet</url-pattern>
+        <url-pattern>/main</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
@@ -19,7 +19,7 @@
     </session-config>
     <welcome-file-list>
         <welcome-file>
-            MainPageServlet
+           main.jsp
         </welcome-file>
     </welcome-file-list>
 </web-app>
