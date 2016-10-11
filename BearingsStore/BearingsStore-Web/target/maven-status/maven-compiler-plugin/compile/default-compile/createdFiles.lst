@@ -1,4 +1,6 @@
 AuthFilter.class
 com\so\bearing\SecuredServlet.class
+com\so\webappexample\LogoutServlet.class
 com\so\bearing\MainPageServlet.class
+com\so\bearing\UsersServlet.class
 com\so\bearing\LoginServlet.class

@@ -24,7 +24,7 @@ public class SecuredServlet extends HttpServlet {
     
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        request.getRequestDispatcher("secured.jsp").forward(request, response);
+        request.getRequestDispatcher("WEB-INF/views/secured.jsp").forward(request, response);
         
     }
 

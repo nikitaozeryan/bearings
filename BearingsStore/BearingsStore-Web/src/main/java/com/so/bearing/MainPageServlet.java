@@ -24,7 +24,7 @@ public class MainPageServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setAttribute("bearings", new BearingDaoImpl().getList());
-        req.getRequestDispatcher("main.jsp").forward(req, resp); //To change body of generated methods, choose Tools | Templates.
+        req.getRequestDispatcher("WEB-INF/views/main.jsp").forward(req, resp); //To change body of generated methods, choose Tools | Templates.
     }
 
    
