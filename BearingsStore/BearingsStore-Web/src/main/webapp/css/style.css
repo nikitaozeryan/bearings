@@ -244,22 +244,6 @@ color:#676d77;
 font-size:11px;
 font-weight:bold;
 }
-/*----------------crumb_navigation-------------*/
-.crumb_navigation{
-width:980px;
-height:15px;
-padding:5px 10px 0 20px;
-color:#333333;
-background:url(../images/navbullet.png) no-repeat left;
-background-position:5px 6px;
-}
-.crumb_navigation a{
-color:#0fa0dd;
-text-decoration:underline;
-}
-span.current{
-color:#0fa0dd;
-}
 
 /*-------------left_content------------------*/
 .left_content{
@@ -457,3 +441,25 @@ _margin:6px 0 0 35px;
 text-decoration:none;
 color:#0fa0dd;
 }
+/*-------add user, edit user-------*/
+table, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.table-head td{
+    width: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+.submit-row td input{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.table-data td{
+    text-align: center;
+}
+/*---olalal----*/
+
+
+

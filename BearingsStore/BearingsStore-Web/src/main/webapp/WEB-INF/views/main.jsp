@@ -59,9 +59,9 @@
         <li class="divider"></li>
         <li><a href="#" class="nav3">Specials</a></li>
         <li class="divider"></li>
-        <li><a href="users" class="nav4">My account</a></li>
+        <li><a href="login" class="nav4">My account</a></li>
         <li class="divider"></li>
-        <li><a href="login" class="nav4">Sign Up</a></li>
+        <li><a href="adduser" class="nav4">Sign Up</a></li>
         <li class="divider"></li>
         <li><a href="#" class="nav5">Shipping</a></li>
         <li class="divider"></li>
@@ -72,7 +72,7 @@
       <div class="right_menu_corner"></div>
     </div>
     <!-- end of menu tab -->
-    <div class="crumb_navigation"> Navigation: <span class="current">Home</span> </div>
+    <div class="crumb_navigation"> 
     <div class="left_content">
       <div class="title_box">Categories</div>
       <ul class="left_menu">

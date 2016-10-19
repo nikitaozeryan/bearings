@@ -1,6 +1,12 @@
-AuthFilter.class
-com\so\bearing\SecuredServlet.class
+com\so\bearing\CheckRegistration.class
 com\so\webappexample\LogoutServlet.class
-com\so\bearing\MainPageServlet.class
+com\so\bearing\CredentialsBundle.class
+com\so\bearing\AuthFilter.class
+com\so\bearing\SecuredServlet.class
+com\so\bearing\DeleteUserServlet.class
 com\so\bearing\UsersServlet.class
+com\so\bearing\AddUserServlet.class
+com\so\bearing\MainPageServlet.class
+com\so\bearing\AddUserServlet$GmailAuthenticator.class
+com\so\bearing\EditUserServlet.class
 com\so\bearing\LoginServlet.class

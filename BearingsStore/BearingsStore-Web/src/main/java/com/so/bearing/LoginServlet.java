@@ -5,6 +5,8 @@
  */
 package com.so.bearing;
 
+import com.so.bearingsstore.domain.Users;
+import com.so.bearingsstore.domain.UsersDaoImpl;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
@@ -31,19 +33,26 @@ public class LoginServlet extends HttpServlet {
     
     @Override 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) 
-    throws ServletException, IOException { 
-    String user = request.getParameter("user"); 
-    String pass = request.getParameter("pass"); 
-        if(user != null && pass !=null){ 
-            if(user.equals("admin") && pass.equals("adin")){ 
-                Cookie auth = new Cookie("auth", "accepted"); 
+    throws ServletException, IOException {
+        String login = request.getParameter("user");
+        String pass = request.getParameter("pass");
+        try{
+        Users user = new UsersDaoImpl().getbyLogin(login);
+            if(user.getPassword().equals(pass))
+            {
+                Cookie auth = new Cookie("auth", "accepted");
                 response.addCookie(auth); 
-                response.sendRedirect("secured"); 
-            } 
-                else{ 
+                response.sendRedirect("users"); 
+            }
+            else{ 
                     response.sendError(401, "bad credentials"); 
-                    } 
-        } 
+                } 
+        }
+        catch(Exception ex)
+        {
+            response.sendError(401, "bad credentials");
+        }
+        
     }
     
 

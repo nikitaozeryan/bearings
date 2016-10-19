@@ -45,6 +45,7 @@
                 
         </table>
         <a href="adduser">Add new Pupkin</a>
+        <a href="logout" >logout</a>
         
     </body>
 </html>

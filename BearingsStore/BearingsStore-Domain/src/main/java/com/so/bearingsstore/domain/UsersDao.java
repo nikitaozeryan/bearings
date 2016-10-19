@@ -13,5 +13,7 @@ import java.util.List;
  */
 public interface UsersDao extends Dao{
     List<Users> getList();
-    void remove(int id);
+    public int deleteUser(int id);
+    public Users getbyLogin(String login);
+    
 }
